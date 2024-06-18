@@ -1,0 +1,10 @@
+{
+  "name": "ts-rest-iitm-issue",
+  "version": "1.0.0",
+  "type": "module",
+  "keywords": [],
+  "workspaces": [
+    "workspaces/contracts",
+    "workspaces/backend"
+  ]
+}
