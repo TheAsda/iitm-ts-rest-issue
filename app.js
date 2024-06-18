@@ -2,4 +2,6 @@ import { initContract } from "@ts-rest/core";
 
 const c = initContract();
 
-export const router = c.router({});
+const router = c.router({});
+
+console.log(typeof router);

@@ -1,10 +1,15 @@
 {
-  "name": "ts-rest-iitm-issue",
+  "name": "iitm-ts-rest-issue",
   "version": "1.0.0",
   "type": "module",
   "keywords": [],
-  "workspaces": [
-    "workspaces/contracts",
-    "workspaces/backend"
-  ]
+  "scripts": {
+    "start:register": "node --import ./import-fix.js ./app.js",
+    "start:hook": "node --import import-in-the-middle/hook.mjs ./app.js",
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "@ts-rest/core": "^3.45.2",
+    "import-in-the-middle": "^1.8.0"
+  }
 }
