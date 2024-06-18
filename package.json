@@ -5,7 +5,7 @@
   "keywords": [],
   "scripts": {
     "start:register": "node --import ./import-fix.js ./app.js",
-    "start:hook": "node --import import-in-the-middle/hook.mjs ./app.js",
+    "start:hook": "node --experimental-loader import-in-the-middle/hook.mjs ./app.js",
     "start": "node ./app.js"
   },
   "dependencies": {
