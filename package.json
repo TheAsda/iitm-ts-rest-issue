@@ -10,6 +10,6 @@
   },
   "dependencies": {
     "@ts-rest/core": "^3.45.2",
-    "import-in-the-middle": "^1.8.0"
+    "import-in-the-middle": "1.8.1"
   }
 }
